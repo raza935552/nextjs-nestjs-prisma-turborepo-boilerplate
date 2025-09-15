@@ -41,22 +41,19 @@ export const metadata = {
     template: `%s | ${APP_NAME}`,
   },
   description:
-    'Turbo NPN is the next-generation social platform where you connect, share, and discover in real time. Join the conversation and stay in the loop with what matters most to you.',
+    'Production-ready Next.js + NestJS + Prisma boilerplate. Full‑stack monorepo with JWT auth, sessions, PostgreSQL, Fastify, and TurboRepo.',
   keywords: [
     APP_NAME,
-    'social media platform',
-    'real-time updates',
-    'microblogging app',
-    'trending topics',
-    'community engagement',
-    'follow creators',
-    'Myanmar social app',
-    'connect with friends',
-    'share thoughts',
-    'post updates',
-    'live conversations',
-    'digital community',
-    'social network Myanmar',
+    'Next.js boilerplate',
+    'NestJS boilerplate',
+    'Prisma',
+    'PostgreSQL',
+    'TypeScript',
+    'Turborepo',
+    'Auth',
+    'JWT',
+    'Fastify',
+    'Full stack starter',
   ],
   alternates: {
     canonical: '/',
@@ -65,7 +62,7 @@ export const metadata = {
     type: 'website',
     title: APP_NAME,
     description:
-      'Join Turbo NPN to connect with your world. Share moments, follow trending topics, and be part of a real-time conversation.',
+      'Next.js + NestJS + Prisma monorepo starter with auth, sessions, and PostgreSQL.',
     url: APP_URL,
     locale: 'en-US',
   },
@@ -84,10 +81,10 @@ export const metadata = {
     card: 'summary_large_image',
     title: APP_NAME,
     description:
-      'Turbo NPN — the real-time social network for discovering, sharing, and connecting across Myanmar and beyond.',
+      'Next.js + NestJS + Prisma monorepo starter with auth and PostgreSQL.',
   },
   verification: {
-    google: 'your-google-verification-token',
+    google: '',
   },
   // Icons and manifest removed to keep boilerplate unbranded
 } satisfies Metadata;

@@ -24,11 +24,10 @@ const Page = async () => {
       <main className="container flex-1 grid place-items-center px-4">
         <div className="mx-auto max-w-2xl text-center space-y-6">
           <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
-            Build fast with Next.js + NestJS
+            Next.js + NestJS + Prisma Boilerplate
           </h1>
           <p className="text-muted-foreground text-base md:text-lg">
-            A clean, batteries‑included monorepo starter with Prisma auth,
-            typed APIs, and a polished developer experience.
+            Full‑stack starter with JWT auth, sessions, PostgreSQL, and TurboRepo — optimized for DX and best practices.
           </p>
 
           {session?.user ? (
